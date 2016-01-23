@@ -1,15 +1,15 @@
 # AWS-CloudFormationTemplates
 AWS CloudFormation Templates
 
--------
-CloudFormation templates for a Mesosphere cluster.
+
+## CloudFormation templates for a Mesosphere cluster.
 
 Prerequisites:
 
 An Exhibitor endpoint for ZooKeeper node discovery. c
 A ZooKeeper client security group to associate with the Mesosphere nodes.
 
-Overview
+##Overview
 
 This project includes three templates:
 
@@ -28,7 +28,7 @@ Mesosphere uses ZooKeeper for coordination, so the templates expect a security g
 
 Note that this template must be used with Amazon VPC. New AWS accounts automatically use VPC, but if you have an old account and are still using EC2-Classic, you'll need to modify this template or (recommended) make the switch.
 
-Usage
+##Usage
 
 1. Clone the repository
 
