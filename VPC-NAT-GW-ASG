@@ -72,7 +72,7 @@
             "packages" : {},
             "files" : {
               "/tmp/nat.sh" : {
-                 "source" : "https://raw.githubusercontent.com/schen1628/aws-auto-healing-nat/master/nat.sh",
+                 "source" : "https://raw.githubusercontent.com/gboda/aws-auto-healing-nat/master/nat.sh",
                  "mode" : "000755",
                  "owner" : "ec2-user",
                  "group" : "ec2-user"
